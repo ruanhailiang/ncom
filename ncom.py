@@ -265,7 +265,7 @@ def uchar_checksum(data, byteorder='little'):
 
 
 def test():
-    ncom_file = r'D:\code\python\pycharm_code\FOXTROT_RFR944_20210312_135514.ncom'
+    ncom_file = r'D:\code\python\pycharm_code\GE20_DC1E0031_1_RTBGPS_IN_20200830T073047_20200830T082112.ncom'
     out_ncom_file = os.path.splitext(ncom_file)[0] + "_new.ncom"
     ncom_fp = open(ncom_file, 'rb')
     out_ncom_fp = open(out_ncom_file, 'wb')
@@ -315,7 +315,7 @@ def main():
 
 
 def test3():
-    ncom_file = r'D:\code\python\pycharm_code\FOXTROT_RFR944_20210312_135514.ncom'
+    ncom_file = r'D:\data\ncom\GE20_DC1E0031_1_RTBGPS_IN_20200830T073047_20200830T082112.ncom'
     no_ext_ncom_file = os.path.splitext(ncom_file)[0]
     out_ncom_file = no_ext_ncom_file + '_out.ncom'
     encoding_ncom_file(ncom_file, out_ncom_file)
