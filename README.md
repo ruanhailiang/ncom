@@ -1,2 +1,2 @@
 # ncom
-ncom read
+包含读写shape文件
